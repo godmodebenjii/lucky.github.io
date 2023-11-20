@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Poppins:ital,wght@1,200&display=swap');
+
+body{
+    background-color: #e2c6ac;
+}
+
+h1{
+    color: #602912;
+    text-align: center;
+    font-family: "Oswald";
+    font-weight: bold;
+}
+
+#home h1{
+    color: white;
+}
+
+h5{
+    color: #602912;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+.card{
+    border: 2px solid #000000;
+}
+
+nav{
+    color: #000000;
+}
+
+.banner{
+    background-image: url("../img/weblap_banner_hatter/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+.card-img-top{
+    border-radius: 3px;
+    border: 3px solid #602912;
+}
+
+.card-body{
+    border: 2px solid #000000;
+    background-color:cornsilk;
+}
+
+li{
+    border-radius: 3px;
+    border: 2px solid #bdbdbd;
+    background:#fff;
+    margin: 3px;
+}
+
+.card-title{
+    font-variant: small-caps;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#colorm{
+    color: white;
+}
+
+.imagem{
+    width: 40px;
+}
+
+footer{
+    background-color:#602912;
+    color: white;
+}
+
+footer li{
+    list-style-type: none;
+    color: rgb(0, 0, 0);
+    background: #d4d4d4;
+    border: 3px solid #000000;
+    width: 450px;
+    padding-left: 5px;
+}
+
+footer li>img{
+    margin-right: 15px;
+}
+
+header{
+    background-color:#602912;
+    color: white;
+}
+
+#home{
+    background-image: url('../img/weblap_banner_hatter/homebg-min.jpg');
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+#home .intro{
+    color: white;
+    height: 100vh;
+}
+
+#home .intro .col-md-8{
+    background-color: rgba(0,0,0,0.4);
+}
+
+#home p{
+    color: rgb(255, 255, 255);
+    font-style: italic;
+}
+
+hr{
+    width: 50%;
+    margin: auto;
+}
+
+.icon{
+    width: 30px;
+    color: #000000;
+}
+
+.modal-header, .modal-footer{
+    background-color: burlywood;
+    color: #fff;
+}
+
+.modal-body{
+    background-color: #c4a68a;
+}
+
+.modal-title{
+    color:#000000;
+}
+
+a{
+    text-decoration: none;
+}
+
+.card.hover{
+    box-shadow: 0px 0px 5px #602912;
+}
+
+p :not(#home){
+    font-style: italic;
+    font-size: 16px;
+    margin: auto;
+    width: 50%;
+    border-radius: 3%;
+    padding: 25px;
+    border: 3px solid linen;
+    background-color: linen;
+}
+
+.blog-img{
+    border: 8px solid #000000d2;
+    border-radius: 10px;
+}
+
+.sorkizart{
+    text-align: justify;
+}
+
+.legjobbkavezo{
+    font-weight: bold;
+    font-weight:400;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+.input-group-text {
+    background-color: green;
+}
+
+.szovegek{
+    font-style: italic;
+}
